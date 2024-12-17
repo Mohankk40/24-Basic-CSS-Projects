@@ -1,0 +1,34 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #1E1F25;
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.button-border{
+  background: linear-gradient(115deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+  padding: 2px;
+}
+
+button{
+  border: none;
+  font-family: 'Karla', sans-serif;
+  background-color: #000;
+  color: #cbcbcb;
+  padding: 1em 1.5em;
+}
+
+button:hover {
+  color: #fff;
+  padding: 1.1em 1.6em;
+}
+
+.button-border:hover{
+  background: linear-gradient(115deg, #6a0d83, #ce4993, #ee5d6c, #fb9062, #eeaf61);
+}
