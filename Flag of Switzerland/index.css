@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+:root {
+  --white: #ffffff;
+  --red: #FF0002;
+  --flag-hw: 200px;
+}
+
+.flag-swiss {
+  height: var(--flag-hw);
+  width: var(--flag-hw);
+  background: var(--red);
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cross1 {
+  height: calc(var(--flag-hw) * 3/16);
+  width: calc(var(--flag-hw) * 5/8);
+  background-color: var(--white);
+}
+
+.cross2 {
+  height: calc(var(--flag-hw) * 5/8);
+  width: calc(var(--flag-hw) * 3/16);
+  background-color: var(--white);
+  position: absolute;
+}
